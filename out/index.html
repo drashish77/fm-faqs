@@ -27,95 +27,134 @@
     </style>
   </head>
   <body class="bg-blue-softviolet">
-    <div class="bg-white my-20 mx-8 h-screen rounded-3xl">
-      <div class="py-8">
-        <h1 class="text-4xl text-center font-bold py-5">FAQ</h1>
-        <div class="flex justify-between p-4">
-          <div class="flex-grow">
-            <h1 class="text-gray-900 font-bold">
+    <div
+      class="bg-white my-36 mx-8 h-full rounded-3xl md:grid md:grid-cols-2 items-center justify-around w-2/3 mx-auto"
+    >
+      <div class="md:hidden">
+        <img class="mx-auto block" src="images/bg-pattern-mobile.svg" alt="" />
+        <img
+          class="-mt-52 mx-auto block"
+          src="images/illustration-woman-online-mobile.svg"
+          alt=""
+        />
+      </div>
+      <div class="md: md:col-span-1 relative">
+        <img
+          class="absolute -top-48 -left-24"
+          src="images/bg-pattern-desktop.svg"
+          alt=""
+        />
+        <img
+          class="absolute -top-48 -left-24"
+          src="images/illustration-woman-online-desktop.svg"
+          alt=""
+        />
+        <img
+          class="absolute -top-16 -left-24"
+          src="images/illustration-box-desktop.svg"
+          alt=""
+        />
+      </div>
+
+      <div class="py-8 md:col-span-1 mr-16">
+        <h1 class="text-4xl text-center md:text-left md:mx-6 font-bold py-5">
+          FAQ
+        </h1>
+        <div class="mx-6">
+          <div class="flex justify-between button cursor-pointer">
+            <h1 class="text-gray-900 hover:text-red-red font-bold">
               How many team members can I invite?
             </h1>
-            <p class="text-gray-500 hidden">
+            <button class="">
+              <img src="images/icon-arrow-down.svg" alt="" />
+            </button>
+          </div>
+
+          <div class="panel hidden">
+            <p class="text-gray-500">
               You can invite up to 2 additional users on the Free plan. There is
               no limit on team members for the Premium plan.
             </p>
-            <div class="border-b-2 pt-5"></div>
-          </div>
-          <div id="button" class="flex-grow-0 cursor-pointer">
-            <img width="30" src="images/icon-arrow-down.svg" alt="" />
           </div>
         </div>
-        <div class="flex justify-between p-4">
-          <div class="flex-grow">
-            <h1 class="text-gray-900 font-bold">
+        <div class="border-b-2 my-4 w-5/6 mx-auto"></div>
+
+        <div class="mx-6">
+          <div class="flex justify-between button cursor-pointer">
+            <h1 class="text-gray-900 hover:text-red-red font-bold">
               What is the maximum file upload size?
             </h1>
+            <button class="">
+              <img src="images/icon-arrow-down.svg" alt="" />
+            </button>
+          </div>
+
+          <div class="panel hidden">
             <p class="text-gray-500">
               No more than 2GB. All files in your account must fit your allotted
               storage space.
             </p>
-            <div class="border-b-2 pt-5"></div>
-          </div>
-          <div id="button" class="flex-grow-0 cursor-pointer">
-            <img width="30" src="images/icon-arrow-down.svg" alt="" />
           </div>
         </div>
-        <div class="flex justify-between p-4">
-          <div class="flex-grow">
-            <h1 class="text-gray-900 font-bold">How do I reset my password?</h1>
-            <p class="text-gray-500 hidden">
+        <div class="border-b-2 my-4 w-5/6 mx-auto"></div>
+
+        <div class="mx-6">
+          <div class="flex justify-between button cursor-pointer">
+            <h1 class="text-gray-900 hover:text-red-red font-bold">
+              How do I reset my password?
+            </h1>
+            <button class="">
+              <img src="images/icon-arrow-down.svg" alt="" />
+            </button>
+          </div>
+
+          <div class="panel hidden">
+            <p class="text-gray-500">
               Click “Forgot password” from the login page or “Change password”
               from your profile page. A reset link will be emailed to you.
             </p>
-            <div class="border-b-2 pt-5"></div>
-          </div>
-          <div id="button" class="flex-grow-0 cursor-pointer">
-            <img width="30" src="images/icon-arrow-down.svg" alt="" />
           </div>
         </div>
-        <div class="flex justify-between p-4">
-          <div class="flex-grow">
-            <h1 class="text-gray-900 font-bold">
+        <div class="border-b-2 my-4 w-5/6 mx-auto"></div>
+
+        <div class="mx-6">
+          <div class="flex justify-between button cursor-pointer">
+            <h1 class="text-gray-900 hover:text-red-red font-bold">
               Can I cancel my subscription?
             </h1>
-            <p class="text-gray-500 hidden">
+            <button class="">
+              <img src="images/icon-arrow-down.svg" alt="" />
+            </button>
+          </div>
+
+          <div class="panel hidden">
+            <p class="text-gray-500">
               Yes! Send us a message and we’ll process your request no questions
               asked.
             </p>
-            <div class="border-b-2 pt-5"></div>
-          </div>
-          <div id="button" class="flex-grow-0 cursor-pointer">
-            <img width="30" src="images/icon-arrow-down.svg" alt="" />
           </div>
         </div>
-        <div class="flex justify-between p-4">
-          <div class="flex-grow">
-            <h1 class="text-gray-900 font-bold">
+        <div class="border-b-2 my-4 w-5/6 mx-auto"></div>
+        <div class="mx-6">
+          <div class="flex justify-between button cursor-pointer">
+            <h1 class="text-gray-900 hover:text-red-red font-bold">
               Do you provide additional support?
             </h1>
-            <p class="text-gray-500 hidden">
+            <button class="">
+              <img src="images/icon-arrow-down.svg" alt="" />
+            </button>
+          </div>
+
+          <div class="panel hidden">
+            <p class="text-gray-500">
               Chat and email support is available 24/7. Phone lines are open
               during normal business hours.
             </p>
-            <div class="border-b-2 p-5"></div>
-          </div>
-          <div id="button" class="flex-grow-0 cursor-pointer cursor-pointer">
-            <img width="30" src="images/icon-arrow-down.svg" alt="" />
           </div>
         </div>
+        <div class="border-b-2 my-4 w-5/6 mx-auto"></div>
       </div>
     </div>
-
-    <script>
-      const buttons = document.querySelectorAll('#button')
-      const para = document.querySelectorAll('p')
-      buttons.forEach((button) => {
-        button.addEventListener('click', () => {
-          para.forEach((p) => {
-            p.classList.toggle('hidden')
-          })
-        })
-      })
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>

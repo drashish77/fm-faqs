@@ -15,6 +15,7 @@ module.exports = {
         },
         red: {
           softred: 'hsl(240, 5%, 91%)',
+          red: '#F47B56',
         },
       },
     },
